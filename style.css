@@ -1,0 +1,63 @@
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+}
+.btn {
+  display: block;
+  width: 20px;
+  text-align: center;
+  height: 15px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: white;
+  background: red;
+}
+.alert {
+  background: red;
+  color: white;
+}
+#submit {
+  background: rgb(116, 71, 116);
+  border: 1px solid darkred;
+  padding: 5px 50px;
+  border-radius: 5%;
+}
+span {
+  color: rgb(58, 93, 145);
+}
+#book-img {
+  margin-right: 5px;
+  width: 25px;
+}
+#book-list {
+  border: none;
+}
+#book-table {
+  width: 100%;
+  overflow-x: auto;
+  margin: auto;
+  border: none;
+  margin-top: 50px;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 0em 0em 0em 0.1em rgb(32, 9, 160);
+}
+#book-table th {
+  color: darkcyan;
+  padding: 0px 2em 0px 2em;
+  border: none;
+}
+#books-form {
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-group {
+  margin: 15px;
+  list-style: none;
+}
